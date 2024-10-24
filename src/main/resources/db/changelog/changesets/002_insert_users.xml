@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="2" author="kristinebaumann (generated)">
+        <insert tableName="app_users">
+            <column name="username" value="mari.maasikas"/>
+            <column name="password" value="$2a$12$JsJDj.4Jctyrp3ihC0yRsuPCWZb.vB0PDQ0ehJaDbR.hT7eVWKYR6"/>
+        </insert>
+        <insert tableName="app_users">
+            <column name="username" value="kati.karu"/>
+            <column name="password" value="$2a$12$gqA6.t0XyT6PNdgVfC.pDuHYk/58h1yPYBVBr3LApfxrieDUG4j7u"/>
+        </insert>
+        <insert tableName="app_users">
+            <column name="username" value="juhan.jalkas"/>
+            <column name="password" value="$2a$12$He3LUgLF4k.e6C/Q15vaWOuhhqZDKyzUDqbX2b0KIja7ztIfJKaWG"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
